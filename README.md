@@ -1,0 +1,2 @@
+# DDK-ICO-ETPS-
+On 30 th November 2015, the team first generated the Project Idea of ICO that will then later evolve to DDK. ICO Platform is called Estimated Time Pool Sharing Platform (ETPS), is an online platform where users collaborate. In this partnership users contribute ICO as silent-partners, and the ICO platform (ETPS) manages them through engaging business ventures as the working-partner.
