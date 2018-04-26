@@ -1,0 +1,796 @@
+[11-Apr-2016 22:26:04 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[11-Apr-2016 22:34:23 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[11-Apr-2016 22:36:21 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[11-Apr-2016 22:38:38 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[11-Apr-2016 22:40:58 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[12-Apr-2016 18:55:56 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[12-Apr-2016 19:01:46 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[12-Apr-2016 19:02:39 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[12-Apr-2016 19:03:26 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[12-Apr-2016 19:04:39 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[12-Apr-2016 19:06:27 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[12-Apr-2016 19:07:21 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[12-Apr-2016 19:09:05 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[12-Apr-2016 19:10:05 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 29
+[12-Apr-2016 19:57:15 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[12-Apr-2016 20:03:54 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[12-Apr-2016 20:05:48 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[12-Apr-2016 20:07:37 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[12-Apr-2016 20:08:28 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[12-Apr-2016 20:09:20 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[12-Apr-2016 20:10:20 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[12-Apr-2016 20:11:14 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[12-Apr-2016 20:12:09 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[13-Apr-2016 13:19:24 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(591): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[13-Apr-2016 13:24:19 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: Error Converting Market Value' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:133
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(591): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[13-Apr-2016 13:25:40 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[13-Apr-2016 16:07:35 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[13-Apr-2016 16:08:24 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[13-Apr-2016 16:08:45 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[14-Apr-2016 20:30:53 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[14-Apr-2016 20:36:58 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[14-Apr-2016 20:37:52 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[14-Apr-2016 20:38:43 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[14-Apr-2016 20:39:39 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[14-Apr-2016 20:40:27 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[14-Apr-2016 20:41:21 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[14-Apr-2016 20:42:17 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[14-Apr-2016 20:43:09 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[14-Apr-2016 20:44:10 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[14-Apr-2016 20:45:04 Asia/Singapore] PHP Notice:  Undefined variable: uid_ in /home/etwallet/public_html/status_p.php on line 43
+[18-Apr-2016 00:46:39 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(591): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 00:51:46 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[18-Apr-2016 00:51:52 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[18-Apr-2016 00:52:15 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: Error Converting Market Value' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:133
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(591): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[18-Apr-2016 00:52:31 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: Error Converting Market Value' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:133
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(591): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[18-Apr-2016 14:15:16 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(591): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 14:15:32 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(591): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 14:16:07 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(591): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 14:17:27 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(591): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 22:59:42 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:00:20 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:00:30 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:00:42 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:01:09 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:01:35 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:01:39 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:01:42 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:01:44 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:02:09 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:02:18 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:02:22 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\HttpError' with message 'Call to https://blockchain.info/tobtc?currency=USD&value=500&format=json failed: Operation timed out after 60001 milliseconds with 0 bytes received' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:129
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 129
+[18-Apr-2016 23:05:12 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[18-Apr-2016 23:05:18 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[18-Apr-2016 23:05:36 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[18-Apr-2016 23:05:43 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: Error Converting Market Value' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:133
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[19-Apr-2016 12:41:52 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[19-Apr-2016 12:42:17 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[19-Apr-2016 12:42:42 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: Error Converting Market Value' in /home/etwallet/public_html/api_wallet/src/Blockchain.php:133
+Stack trace:
+#0 /home/etwallet/public_html/api_wallet/src/Blockchain.php(119): Blockchain\Blockchain->_call()
+#1 /home/etwallet/public_html/api_wallet/src/Rates/Rates.php(34): Blockchain\Blockchain->get('tobtc', Array)
+#2 /home/etwallet/public_html/api_wallet/example/rates.php(13): Blockchain\Rates\Rates->toBTC(500, 'USD')
+#3 /home/etwallet/public_html/index.php(627): include('/home/etwallet/...')
+#4 {main}
+  thrown in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[19-Apr-2016 13:16:52 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[19-Apr-2016 13:16:54 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[19-Apr-2016 13:17:18 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[19-Apr-2016 13:17:30 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[19-Apr-2016 13:17:45 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
+[19-Apr-2016 13:30:30 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Blockchain\Exception\Error' with message 'Unable to decode JSON response from Blockchain: <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> </html><![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> </html><![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+	<meta charset="utf-8" />
+
+<!--
+ ____  _            _        _           _       
+| __ )| | ___   ___| | _____| |__   __ _(_)_ __  
+|  _ \| |/ _ \ / __| |/ / __| '_ \ / _` | | '_ \ 
+| |_) | | (_) | (__|   < (__| | | | (_| | | | | |
+|____/|_|\___/ \___|_|\_\___|_| |_|\__,_|_|_| |_|
+
+(c) Blockchain. All Rights Reserved.
+Support: https://blockchain.zendesk.com/
+
+Build 94.2016
+-->
+
+  <!-- Page Specific Head Content -->
+  <title>Blockchain</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    
+
+    <!-- CSS Global Compulsory -->
+
+    <style type="tex in /home/etwallet/public_html/api_wallet/src/Blockchain.php on line 133
